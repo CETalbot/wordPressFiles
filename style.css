@@ -1,0 +1,89 @@
+/*
+Theme Name: portfolio-theme
+Author: Catherine 
+Description: Portfolio Theme gives a simple design to a one page website
+Version: 1.0
+Text Domain: portfolio-theme
+Tags: two-columns
+*/
+header{
+	border-bottom: #660000;
+}
+#title, #titleDescription, a{
+	text-align: center;
+	color: #660000;
+	font-family: Arial;
+	font-weight: bold;
+	background-color: #e5e2e2;
+}
+a:hover {
+	text-decoration: none;
+	color: #660000;
+}
+.postTitle{
+	padding-bottom: 10px;
+}
+#intro, #contact, .postsTitle{
+	background-color: #e5e2e2;
+}
+#into, #content{
+	font-family: Arial;
+	font-size:14px;
+}
+h1, h2{
+	margin-bottom: 0;
+}
+.wp-caption, .wp-caption-text{
+
+}
+.screen-reader-text{
+
+}
+.gallery-caption{
+
+}
+.bypostauthor{
+
+}
+.alignright{
+
+}
+.alignleft{
+
+}
+.aligncenter{
+	
+}
+.menu{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+}
+.menu>li{
+	margin-right: 10px;
+	padding: 10px;
+}
+.menu-item a{
+	background-color: transparent;
+}
+/*https://www.w3schools.com/css/css3_flexbox.asp last accessed 13/05/2018 */
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-container>div{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#contact{
+	padding-bottom: 50px;
+}
+#footer{
+	position: absolute;
+	text-align: center;
+	padding-top: 30px;
+	bottom: 0;
+	width: 85%;
+}
